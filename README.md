@@ -2,7 +2,11 @@
 
 這是《Python 帶你搞定生活大小事：從零開始打造 12 個實用自動化工具》的讀者服務頁面。
 
-本儲存庫用於讀者支援、勘誤與問題回報，不公開書籍章節全文、詳細教學內容或未授權的手稿。此處的空白或尚未刊出的材料，不代表書籍已提供可下載的 companion package。
+本儲存庫用於讀者支援、勘誤與問題回報，不公開書籍章節全文、詳細教學內容或未授權的手稿。配套程式下載方式見下方「配套程式下載」。
+
+## 配套程式下載
+
+[下載最新版配套 ZIP](https://github.com/t945935/python-life-tools-book/releases/latest/download/python-life-tools-companion.zip)。ZIP 包含本書各章可執行的 Python 範例程式與使用說明，不包含書籍章節正文。使用前請查看 ZIP 內的 `companion/README.md`。
 
 ## 回報勘誤或提問
 
