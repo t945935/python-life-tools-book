@@ -1,0 +1,23 @@
+name: 勘誤回報
+about: 回報書籍文字、程式碼或技術說明中的錯誤
+labels: [errata]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 章節標題或頁碼
+      placeholder: 例如「第 3 章，CSV 月報」
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: 發現的問題
+      description: 請簡述書中內容與實際狀況的差異。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 重現步驟（如適用）
+      description: 請移除私人資料與任何 API key、token、密碼。

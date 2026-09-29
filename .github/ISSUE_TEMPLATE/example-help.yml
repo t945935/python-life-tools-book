@@ -1,0 +1,38 @@
+name: 程式範例問題
+about: 回報執行範例時遇到的問題
+labels: [example-help]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 章節與範例
+      placeholder: 章節標題或頁碼
+    validations:
+      required: true
+  - type: input
+    id: python-version
+    attributes:
+      label: Python 版本
+      placeholder: 例如 Python 3.12.3
+    validations:
+      required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: 作業系統
+      placeholder: Windows、macOS 或 Linux
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 執行命令與重現步驟
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: 錯誤訊息
+      description: 貼上前請移除使用者名稱、私人內容、API key、token 和密碼。
+    validations:
+      required: false
